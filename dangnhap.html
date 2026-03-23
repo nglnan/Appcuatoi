@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>HN App - Đăng nhập</title>
+    <style>
+        body { background-color: #f3efff; font-family: 'Segoe UI', Tahoma, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #fff; padding: 40px; border-radius: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); width: 320px; text-align: center; border: 2px solid #e1d5ff; }
+        .logo-cat { font-size: 50px; margin-bottom: 10px; display: block; }
+        h2 { color: #7e57c2; margin-bottom: 25px; font-size: 24px; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 14px; margin: 10px 0; border: 1px solid #dcdde1; border-radius: 15px; box-sizing: border-box; outline: none; background: #fcfaff; transition: 0.3s; }
+        input:focus { border-color: #b39ddb; background: #fff; }
+        .options { display: flex; justify-content: space-between; font-size: 13px; color: #95a5a6; margin: 10px 0 20px; }
+        .btn { width: 100%; padding: 14px; background: #7e57c2; border: none; border-radius: 15px; color: white; font-weight: bold; cursor: pointer; font-size: 16px; }
+        .btn:hover { background: #673ab7; }
+        .link { margin-top: 20px; font-size: 13px; color: #7f8c8d; }
+        .link a { color: #9c27b0; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="logo-cat">🐈‍⬛</span>
+        <h2>HN App</h2>
+        <form action="#">
+            <input type="text" placeholder="Tên đăng nhập" required>
+            <input type="password" placeholder="Mật khẩu" required>
+            <div class="options">
+                <label><input type="checkbox"> Ghi nhớ</label>
+                <a href="#" style="color: #95a5a6; text-decoration: none;">Quên mật khẩu?</a>
+            </div>
+            <button type="submit" class="btn">Đăng Nhập</button>
+        </form>
+        <div class="link">Chưa có tài khoản? <a href="register.html">Đăng ký ngay</a></div>
+        <div class="link"><a href="contact.html">Hỗ trợ & Liên hệ</a></div>
+    </div>
+</body>
+</html>
